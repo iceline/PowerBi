@@ -18,7 +18,7 @@ class JConfig {
 	public $db = '?????';
 	public $dbprefix = 'fqjag_';
 	public $live_site = '';
-	public $secret = 'asaKH4TfooCdC0jG';
+	public $secret = '???/';
 	public $gzip = '0';
 	public $error_reporting = 'default';
 	public $helpurl = 'https://help.joomla.org/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
