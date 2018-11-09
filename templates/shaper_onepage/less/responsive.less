@@ -1,0 +1,264 @@
+/**
+ * @package Helix V3 Framework
+ * @author JoomShaper http://www.joomshaper.com
+ * @copyright Copyright (c) 2010 - 2015 JoomShaper
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 or later
+ */
+
+
+/* Large Devices, Wide Screens */
+@media (max-width: 1200px) and (min-width:990px){
+	.sppb-teams-wrapper{
+		ul{
+			li{
+				.sppb-team-image-wrapper{
+					img{
+						max-height: 217px;
+					}
+				}
+				.sppb-team-info{
+					h3{
+						margin: 0;
+					}
+					p{
+						margin-bottom: 5px;
+					}
+					.sppb-team-social-icons a{
+						margin-top: 5px;
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+	}
+}
+/* End:: Large Devices, Wide Screens */
+
+/* Medium Devices, Desktops */
+@media (max-width: 979px){
+	.sppb-slider-wrapper.sppb-slider-fullwidth-wrapper .sppb-slideshow-fullwidth-item-bg .container .sppb-slideshow-fullwidth-item-text h1{
+		font-size: 50px;
+	}
+
+	.sppb-teams-wrapper {
+		ul{
+			display: block;
+			text-align: center;
+			
+			li{
+				display: block;
+				width: auto;
+				float: none;
+				margin-bottom: 30px;
+			}
+			li.active{
+				width: auto;
+				.sppb-team-image-wrapper{
+					float: none;
+					clear: both;
+					display: block;
+					
+				}
+				.sppb-team-info{
+					position: relative;
+					width: 285px;
+					display: inline-block;
+					float: none;
+				}
+				.sppb-team-image-wrapper{
+					float: none;
+				}
+			}
+		}
+		.sppb-carousel-arrow.left{
+			.translate(-50%,-50%);
+		}
+		.sppb-carousel-arrow.right{
+			.translate(50%,-50%);
+		}
+	}
+}
+/* End:: Medium Devices, Desktops */
+
+/* Small Devices, Tablets */
+@media (max-width: 768px){
+	//Feature hexa
+	.features-hexa .sppb-row >div{
+		margin-bottom: 50px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	//Blog
+	.sppb-addon-latest-posts{
+		&:before{
+			display: none;
+		}
+		.latest-posts .sppb-row:last-child >.sppb-column.latest-post:last-child{
+			margin-bottom: 0px;
+		}
+		.latest-posts .sppb-row >.sppb-column.latest-post{
+			&:nth-child(1),
+			&:nth-child(2){
+				text-align: center;
+				margin-bottom: 50px;
+				>div{
+					padding: 0;
+					margin-top: 20px;
+					&:after{
+						display: none;
+
+					}
+				}
+				.img-hexagon{
+					float: none;
+					margin: 0 auto;
+				}
+			}
+
+		}
+	}
+
+	//contact
+	.onepage-contact-wrapper{
+		.sppb-addon-container{
+			.onepage-contact-form{
+				.sppb-addon-content{
+					width: 95%;
+				}
+			}
+		}
+	}
+	//Bottom
+	.onepage-bottom .sppb-row{
+		>div{
+			margin-bottom: 50px;
+		}
+		.sppb-feature-box-title{
+			margin-top: 10px;
+		}
+	}
+}
+
+/* END:: Small Devices, Tablets */
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 480px) {
+	//Pagebuilder Global
+	#sp-page-builder .sppb-section-title{
+		.sppb-title-heading{
+			font-size: 42px !important;
+			line-height: 42px !important;
+		}
+		.sppb-title-subheading{
+			font-size: 18px !important;
+		}
+	}
+	//Slideshow
+	.sppb-slider-wrapper.sppb-slider-fullwidth-wrapper{
+		.sppb-slideshow-fullwidth-item-bg .container .sppb-slideshow-fullwidth-item-text{
+			padding: 30px 20px;
+			width: 100%;
+			h1{
+				font-size: 42px;
+			}
+			a.sppb-slideshow-fullwidth-read-more{
+				font-size: 14px;
+				padding: 10px 20px;
+			}
+		}
+		// Slideshow next/prev nav
+		.customNavigation a{
+			margin-top: -30px;
+			font-size: 25px;
+			&.sppbSlideNext i{
+				padding: 12px 20px;
+				.border-radius(50%);
+			}
+			&.sppbSlidePrev i{
+				padding: 12px 20px;
+				.border-radius(50%);
+			}
+		}
+	}
+
+}
+/* END:: Medium Devices, Desktops */
+
+/* Extra Small Devices, Phones  */
+@media only screen and (max-width : 320px) {
+	//Slideshow
+	
+	
+	//Team controller
+	.sppb-teams-wrapper .sppb-carousel-arrow{
+		top: -5%;
+	}
+	.sppb-teams-wrapper.sppb-carousel{
+		margin-top: 120px;
+	}
+
+	//Portfolio
+	.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li{
+		margin: 0;
+		padding: 0;
+		width: 50%;
+		a{
+			text-align: left;
+		}
+	}
+
+	.sppb-teams-wrapper .sppb-carousel-arrow.left{
+		.translate(100%, -50%);
+	}
+	.sppb-teams-wrapper .sppb-carousel-arrow.right{
+		.translate(-100%, -50%);
+	}
+
+	//Bottom Social share
+	.onepage-bottom .bottom-social-share{
+		padding-top: inherit;
+		padding-bottom: 40px;
+	}
+
+}
+/* End Extra Small Devices, Phones  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
